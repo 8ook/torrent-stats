@@ -11,3 +11,4 @@
 - put all SQL commands  in array, and execute them all at once - to minimize SQLite database locking issues
   or use "PRAGMA journal_mode=WAL" from https://www.sqlite.org/wal.html as quick alternative
 - add up to 2 retries in case UDP tracker does not respond?
+- add apsw to deps
